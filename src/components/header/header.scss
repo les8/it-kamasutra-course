@@ -1,0 +1,31 @@
+.header {
+    grid-gap: 10px;
+    grid-area: h;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    .header__head {
+        .header__name {
+            color: #3eb489;
+            margin: auto 0 auto 10px;
+            font-size: 55px;
+            font-weight: 700;
+        }
+    }
+    .header__login {
+        margin: auto 0;
+        color: #3eb489;
+        font-size: 30px;
+        font-weight: 700;
+        a {
+            text-decoration: none;
+            color: #3eb489;
+            font-size: 30px;
+            font-weight: 700;
+        }
+    }
+}
+button {
+    width: 100px;
+    height: 20px;
+}

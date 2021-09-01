@@ -1,0 +1,28 @@
+.dialogs {
+    color: #3eb489;
+    display: flex;
+    .dialogs__name {
+        width: 20%;
+    }
+    .dialogs__messages {
+        width: 80%;
+        .dialogs__newmessage {
+            display: flex;
+            button {
+                color: white;
+                background-color: #3eb489;
+                margin-bottom: 10px;
+                height: 20px;
+                width: 150px;
+            }
+        }
+    }
+}
+
+textarea {
+    width: 400px;
+    height: 20px;
+    border-style: solid;
+    border-color: #3eb489;
+    border-width: 1px;
+}

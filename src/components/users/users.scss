@@ -1,0 +1,25 @@
+.users {
+    color: #3eb489;
+    button {
+        display: block;
+        background-color: #3eb489;
+        color: white;
+        height: 20px;
+        width: 100px;
+    }
+    input {
+        border: #3eb489 1px solid;
+        height: 20px;
+        width: 300px;
+        margin-bottom: 10px;
+    }
+    .users__carusel {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        margin-bottom: 10px;
+        .users__selectedPage {
+            font-weight: bold;
+        }
+    }
+}

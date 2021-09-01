@@ -1,0 +1,23 @@
+.profile__myposts {
+    .profile__postMaker {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        button {
+            color: white;
+            background-color: #3eb489;
+            margin-bottom: 10px;
+            height: 20px;
+            width: 150px;
+        }
+    }
+}
+
+textarea {
+    width: 400px;
+    height: 20px;
+    border-style: solid;
+    border-color: #3eb489;
+    border-width: 1px;
+}

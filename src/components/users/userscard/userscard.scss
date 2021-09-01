@@ -1,0 +1,24 @@
+.users__card {
+    border: #3eb489 1px solid;
+    width: 600px;
+    display: flex;
+    padding: 12px;
+    margin-bottom: 10px;
+
+    .users__ava {
+        display: flex;
+        flex-direction: column;
+        img {
+            height: 124px;
+            width: 124px;
+            margin-right: 10px;
+        }
+        button {
+            width: 124px;
+            height: 20px;
+            margin-top: 10px;
+            color: white;
+            background-color: #3eb489;
+        }
+    }
+}

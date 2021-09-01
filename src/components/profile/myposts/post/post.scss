@@ -1,0 +1,17 @@
+.profile__post {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    .profile__comment {
+        display: flex;
+        img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            padding-bottom: 0;
+        }
+    }
+    .profile__stat {
+        text-align: right;
+    }
+}

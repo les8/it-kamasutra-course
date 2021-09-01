@@ -1,0 +1,11 @@
+.profile__about {
+    .profile__person {
+        display: flex;
+        margin-bottom: 10px;
+        img {
+            width: 150px;
+            height: 150px;
+            margin-right: 10px;
+        }
+    }
+}
